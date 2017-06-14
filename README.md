@@ -1,6 +1,6 @@
 # Magento2 Module Headroom
 
-Extends TransportBuilder with attachment functionality
+data-mage-init integration for Headroom.js
 
 ## Installation
 
