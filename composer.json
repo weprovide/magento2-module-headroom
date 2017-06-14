@@ -1,0 +1,21 @@
+{
+    "name": "weprovide/magento2-module-headroom",
+    "description": "data-mage-init integration for Headroom.js",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jeroen Alewijns",
+            "email": "jeroen@weprovide.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeProvide\\Headroom\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
