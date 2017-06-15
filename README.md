@@ -13,7 +13,13 @@ data-mage-init integration for Headroom.js
 <script type="text/x-magento-init">
   {
     ".page-header": {
-      "WeProvide_Headroom/headroom": {}
+      "WeProvide_Headroom/headroom": {
+         "classes": {
+             "initial": "animated",
+             "pinned": "slideDown",
+             "unpinned": "slideUp"
+         }
+       }
     }
   }
 </script>
